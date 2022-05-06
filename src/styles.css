@@ -3,3 +3,25 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.box{
+    @apply border-2 text-slate-500 flex flex-col h-64 min-h-fit text-[14px] 
+}
+.box-menu{
+    @apply flex justify-end text-slate-800 text-[12px] mr-2 mt-2
+}
+.box-text{
+    @apply flex flex-row justify-center font-normal mr-4 ml-7
+}
+.box-image{
+    @apply flex flex-row justify-center mt-3 mb-4 gap-6
+}
+.box-info{
+    @apply flex flex-row justify-center font-semibold
+}
+.box-bottom{
+    @apply flex flex-row justify-center
+}
+.btn-go{
+    @apply border border-blue-500 p-1 pl-4 pr-4 text-blue-600 font-bold rounded-full mt-2
+}
